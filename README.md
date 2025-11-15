@@ -21,7 +21,6 @@ Build a fully customizable Arch Linux ISO using archiso.
 | Name | Description |
 |------|-------------|
 | `iso-path` | Path to the built ISO |
-| `sha256` | SHA256 checksum of the ISO |
 
 ## Example usage
 
