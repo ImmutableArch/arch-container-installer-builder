@@ -1,0 +1,37 @@
+name: "Build Arch based OSTree ISO"
+description: "Builds a preconfigured Arch Linux ISO for example arch-coreos installation"
+author: "immutablearch"
+
+inputs:
+  rootfs-path:
+    description: "Extra files/directories to merge into airootfs/"
+    required: false
+    default: ""
+  custom-packages:
+    description: "Additional packages to install"
+    required: false
+    default: ""
+  extra-repos:
+    description: "Additional pacman repositories"
+    required: false
+    default: ""
+  custom-profiledef:
+    description: "Path to a complete custom profiledef.sh file"
+    required: false
+    default: ""
+  custom-grub:
+    description: "Folder containing custom GRUB theme/config"
+    required: false
+    default: ""
+  custom-syslinux:
+    description: "Folder containing custom syslinux files"
+    required: false
+    default: ""
+  output-dir:
+    description: "Where to save the built ISO"
+    required: false
+    default: "out"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
