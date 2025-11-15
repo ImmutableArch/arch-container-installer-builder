@@ -6,13 +6,11 @@ Build a fully customizable Arch Linux ISO using archiso.
 
 | Name | Description | Required | Default |
 |------|-------------|----------|---------|
-| `profile-path` | Path to a custom ArchISO profile | ❌ | Uses default profile |
 | `rootfs-path` | Extra files/directories to merge into airootfs/ | ❌ | – |
 | `custom-packages` | Additional packages to install | ❌ | – |
 | `extra-repos` | Additional pacman repositories | ❌ | – |
 | `custom-grub` | Folder containing custom GRUB theme/config | ❌ | – |
 | `custom-syslinux` | Folder containing custom Syslinux files | ❌ | – |
-| `profiledef-overrides` | Lines to append or override in profiledef.sh | ❌ | – |
 | `custom-profiledef` | Path to a complete custom profiledef.sh | ❌ | – |
 | `output-dir` | Output folder for ISO | ❌ | `out` |
 
