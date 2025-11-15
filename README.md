@@ -45,6 +45,6 @@ jobs:
           profiledef-overrides: |
             iso_name="mikusiowy-arch"
             iso_label="MIKUSIARCH_2025"
-
+```
 ## License
 MIT License
