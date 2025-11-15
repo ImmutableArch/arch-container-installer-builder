@@ -2,6 +2,10 @@ name: "Build Arch based OSTree ISO"
 description: "Builds a preconfigured Arch Linux ISO for example arch-coreos installation"
 author: "immutablearch"
 
+branding:
+    icon: "package"
+    color: "blue"
+
 inputs:
   rootfs-path:
     description: "Extra files/directories to merge into airootfs/"
